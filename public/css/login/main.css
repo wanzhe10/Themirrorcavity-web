@@ -3,7 +3,28 @@
 
 /*公共样式--开始*/
 
-html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
     margin: 0;
     padding: 0;
     border-radius: 0;
@@ -15,7 +36,8 @@ html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input,
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     min-height: 100%;
 }
 
@@ -25,11 +47,18 @@ body {
     color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
     list-style: none;
 }
 
@@ -48,7 +77,8 @@ table {
     table-layout: fixed;
 }
 
-input, textarea {
+input,
+textarea {
     outline: none;
     border: none;
 }
@@ -448,6 +478,7 @@ table.clearfix {
     width: 100%;
     min-width: 1200px;
 }
+
 .imgBox {
     display: block;
     width: 100%;
@@ -541,13 +572,14 @@ table.clearfix {
     overflow: hidden;
     transition: all .3s;
 }
-.introduceUl>li>a:hover > img{
+
+.introduceUl>li>a:hover>img {
     transform: scale(1.2);
 }
 
 .introduceUl>li>a>p {
     margin: 8px 0 0 0;
-    text-align:center;
+    text-align: center;
 }
 
 /*首页内容 start*/
@@ -567,7 +599,8 @@ table.clearfix {
     min-width: 1200px;
 }
 
-.main-bg1 p:nth-child(1), .main-bg2 p:nth-child(1) {
+.main-bg1 p:nth-child(1),
+.main-bg2 p:nth-child(1) {
     display: inline-block;
     height: 46px;
     line-height: 46px;
@@ -820,7 +853,8 @@ table.clearfix {
     color: #f57d23;
 }
 
-.main .imgtext:hover, .main .imgtext1:hover {
+.main .imgtext:hover,
+.main .imgtext1:hover {
     box-shadow: 0 0 20px #cdcdcd;
 }
 
@@ -903,13 +937,15 @@ table.clearfix {
     line-height: 32px;
 }
 
-.main .left-content .doctor, .main .left-content .date {
+.main .left-content .doctor,
+.main .left-content .date {
     text-indent: 0;
     color: #808080;
     font-size: 14px;
 }
 
-.main .left-content .doctor a, .main .left-content .date a {
+.main .left-content .doctor a,
+.main .left-content .date a {
     margin-left: 20px;
     color: #1384ff;
 }
@@ -1132,6 +1168,10 @@ table.clearfix {
     text-justify: inter-word;
 }
 
+.new-content>p {
+    text-indent: 28px;
+}
+
 .content-bg .content .new-content>h2 {
     font-weight: 800;
     font-size: 22px;
@@ -1274,7 +1314,8 @@ table.clearfix {
     text-align: center;
 }
 
-.page input, .page a {
+.page input,
+.page a {
     display: inline-block;
     height: 30px;
     line-height: 30px;
@@ -1849,7 +1890,8 @@ h3 {
     -webkit-transition: border-color 0.3s;
 }
 
-.checkbox input+i:after, .checkbox input:checked+i {
+.checkbox input+i:after,
+.checkbox input:checked+i {
     border-color: #47A8C0;
     color: #4797ff;
 }
@@ -1961,7 +2003,9 @@ h3 {
     box-sizing: border-box;
     padding: 0 26px 0;
 }
-.doctorDetails .doctorBox > h3,p{
+
+.doctorDetails .doctorBox>h3,
+p {
     text-align: left;
 }
 

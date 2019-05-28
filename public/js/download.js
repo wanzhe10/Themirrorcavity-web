@@ -33,6 +33,6 @@
         var view=document.getElementById("view");
         view.onclick=function(e){
             //e.stopPropagation();
-            window.open("http://58.87.68.206/prostaticUnion/public/file/中国前列腺治疗康复技术创新联盟章程.pdf");
+            window.open("http://58.87.68.206/public/file/中国前列腺治疗康复技术创新联盟章程.pdf");
         }
     };

@@ -1,6 +1,6 @@
 联盟官网 prostaticUnion
 logo
-联盟介绍  关于联盟
+联盟介绍  关于协会
             联盟简介
             联盟章程
             组织架构
@@ -17,11 +17,11 @@ logo
 申请加入
     单位加入 专家加入
 服务项目
-    医患沟通公众号     链接 二维码
-    专家技术团队
+    医患沟通     链接 二维码
+    专家团队
     科研平台        链接
     远程会诊教学平台    链接
-    康复标准化流程
+    专业考评
 
 
 
@@ -36,14 +36,13 @@ logo
             /js
                 /nav.js         导航js
             /swiper             轮播图插件
-    /prostaticUnion/web
+    /web
         /login.html             登录页
-        /erweima.html           医患沟通公众号二维码
-        -----tab2-关于联盟----
-        /introduce.html       联盟介绍
-        /whyJoin.html           为何加入
-        /constitution.html    联盟章程
-        /framework.html       组织架构
+        /erweima.html           医患沟通二维码
+        -----tab2-关于协会----
+        /introduce.html       协会介绍
+        /whyJoin.html           协会宗旨
+        /constitution.html   协会章程
         -------tab3-联盟单位------
         /coreHospital.html      核心医院
         /memberUnit.html        成员单位
