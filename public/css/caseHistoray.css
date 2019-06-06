@@ -1,0 +1,42 @@
+.historay_ul {
+    display: inline-block;
+
+}
+
+.historay_ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.bac {
+    background-color: #0062b2;
+    color: #fff;
+}
+
+select {
+    width: 340px;
+    height: 40px;
+    text-align: center;
+}
+
+.selectBox{
+margin-bottom: 20px;
+} 
+.sort {
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.sort span {
+    text-align: center;
+    padding-right:10px;
+}
